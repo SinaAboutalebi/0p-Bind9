@@ -1,0 +1,27 @@
+$TTL 2d
+$ORIGIN 0powerdev.ir.
+@	IN	SOA	0powerdev.ir. root.0powerdev.ir. (
+			2003080802
+			12h
+			15m
+			3w
+			2h
+			 )
+;
+@	IN	NS	185.128.138.213.
+@	IN	A	185.128.138.213
+
+;Name Server Information
+
+@	IN	NS	ns1.0powerdev.ir.
+@	IN	NS	ns2.0powerdev.ir.
+
+;IP address of Name Server
+
+ns1	IN	A	185.128.138.213
+ns2	IN	A	185.128.138.213
+
+; A Records
+
+cdn.0powerdev.ir.	IN	A	185.128.138.213
+api.0powerdev.ir.	IN	A	185.128.138.213
